@@ -32,9 +32,9 @@ This script runs the scenario against a real broker, for kafka-clients versions 
 
 Auto-commit is off by default so the heartbeat loop shows; the stall itself happens with it on too. Jars and logs go under `$TMPDIR/kafka-regex-stall`, and the containers are removed on exit. A run takes about 4 minutes.
 
+Download the files on this page (Download ZIP, or clone the gist), then from that folder:
+
 ```
-git clone https://gist.github.com/<id>.git kafka-subscriptionpattern-metadata-stall
-cd kafka-subscriptionpattern-metadata-stall
 bash reproduce.sh
 ```
 
